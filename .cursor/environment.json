@@ -1,0 +1,17 @@
+{
+  "name": "anilkumarkakelli",
+  "install": "npm ci",
+  "ports": [
+    {
+      "name": "vite-dev-server",
+      "port": 5173
+    }
+  ],
+  "terminals": [
+    {
+      "name": "dev-server",
+      "command": "npm run dev",
+      "description": "Vite development server for the profile site on port 5173."
+    }
+  ]
+}
