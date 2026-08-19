@@ -19,8 +19,16 @@ A complete teaching pack for a **12-week, 3-credit** undergraduate course. Stude
 | [03-realtime-usecases.md](03-realtime-usecases.md) | Case seminars | Production-style real-time systems |
 | [04-lab-manual.md](04-lab-manual.md) | Lab sessions | Hands-on exercises (free-tier friendly) |
 | [05-assessments.md](05-assessments.md) | Exams | Quizzes, midterm, project, viva |
+| [06-student-cheatsheet.md](06-student-cheatsheet.md) | Students | One-page exam/lab reference |
+| **[GCP-Bachelor-CS-Classroom.pptx](GCP-Bachelor-CS-Classroom.pptx)** | **Faculty** | **54-slide classroom deck (speaker notes included)** |
 
 Render diagrams in GitHub, VS Code (Mermaid), or [mermaid.live](https://mermaid.live).
+
+**Regenerate the PPT** after editing content:
+
+```bash
+cd gcp-bachelors-course && python3 build_presentation.py
+```
 
 ## Learning outcomes (Bloom)
 
