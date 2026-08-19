@@ -1,0 +1,16 @@
+{
+  "name": "anilkumarkakelli",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Personal profile site for Anil Kumar Kakelli",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "health-check": "node scripts/health-check.mjs"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
